@@ -1,0 +1,231 @@
+body, html{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    background-color: white;
+
+}
+.nav-link {
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+}
+.nav-link:hover {
+    color: white;
+    background-color: black;
+}
+.navbar-brand {
+    font-size: 20px;
+    font-weight: 800;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.full-height {
+    height: 100%;
+}
+
+.avatar {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    border: solid 7px rgb(233, 20, 109);
+}
+
+.main {
+    background: url("../images/2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+}
+
+.main h3 {
+    font-size: 70px;
+    font-weight: 700;
+
+}
+.main h6 {
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 1;
+    border-bottom: 5px solid rgb(233, 20, 109);
+    width: 100%;
+}
+
+.main .bt1 {
+    height: 55px;
+    width: 138px;
+    background-color: rgb(233, 20, 109);
+    color: white;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.main .bt1:hover {
+    background-color: rgb(233, 20, 109);
+    transition: 0.5s;
+}
+
+.main .bt2 {
+    height: 55px;
+    width: 138px;
+    background-color: transparent;
+    color: rgb(233, 20, 109);
+    outline: none;
+    border: 1px solid rgb(233, 20, 109);
+    font-weight: bold;
+    border-radius: 5px;
+}
+.main .bt2:hover {
+    background-color: rgb(233, 20, 109);
+    transition: 0.5s;
+    color: white;
+}
+
+.quote {
+    color: black;
+    float: center;
+}
+
+.background {
+    background-color: rgb(250, 223, 237);
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: fixed;
+        clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+.about img {
+    border-radius: 15px 15px;
+}
+h1{
+    font-size: 48px;
+    font-weight: 900;
+
+}
+/* .imgage-fluid {
+    background-image: url("../images/about.png");
+    position: fixed;
+    left: 0;
+    } */
+.progress {
+    background-color: rgb(223, 219, 219);
+    justify-content: flex-start;
+    border-radius: 50px;
+    align-items: center;
+    position: relative;
+    display: flex;
+    height: 25px;
+    width: 100%;
+}
+
+.progress p{
+    color: white;
+    padding: 5px;
+}
+.pro-value1 {
+    animation: load1 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0;
+}
+.pro-value2 {
+    animation: load2 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0;
+}
+.pro-value3 {
+    animation: load3 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0;
+}
+.pro-value4 {
+    animation: load4 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0;
+}
+@keyframes load1 {
+    0%{
+        width: 0;
+    }
+    100% {
+        width: 70%;
+    }
+}
+@keyframes load2 {
+    0%{
+        width: 0;
+    }
+    100% {
+        width: 50%;
+    }
+}
+@keyframes load3 {
+    0%{
+        width: 0;
+    }
+    100% {
+        width: 35%;
+    }
+}
+@keyframes load4 {
+    0%{
+        width: 0;
+    }
+    100% {
+        width: 35%;
+    }
+}
+.about .btn1 {
+    height: 55px;
+    width: 138px;
+    background-color: rgb(233, 20, 109);
+    color: white;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.about .btn1:hover {
+    background-color: transparent;
+    color: rgb(233, 20, 109);
+    border: 1px solid rgb(233, 20, 109);
+    transition: 0.5s;
+}
+
+.about .btn2 {
+    height: 55px;
+    width: 138px;
+    background-color: transparent;
+    color: rgb(233, 20, 109);
+    outline: none;
+    border: 1px solid rgb(233, 20, 109);
+    font-weight: bold;
+    border-radius: 5px;
+}
+.about .btn2:hover {
+    background-color: rgb(233, 20, 109);
+    transition: 0.5s;
+    color: white;
+}
+.fun {
+
+        font-size: 48px;
+        font-weight: 900;
+
+}
