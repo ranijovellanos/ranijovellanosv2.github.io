@@ -59,7 +59,7 @@ body, html{
     width: 100%;
 }
 
-.main .bt1 {
+/* .main .bt1 {
     height: 55px;
     width: 138px;
     background-color: rgb(233, 20, 109);
@@ -88,7 +88,7 @@ body, html{
     background-color: rgb(233, 20, 109);
     transition: 0.5s;
     color: white;
-}
+} */
 
 .quote {
     color: black;
@@ -191,7 +191,7 @@ h1{
         width: 35%;
     }
 }
-.about .btn1 {
+/* .about .btn1 {
     height: 55px;
     width: 138px;
     background-color: rgb(233, 20, 109);
@@ -222,7 +222,7 @@ h1{
     background-color: rgb(233, 20, 109);
     transition: 0.5s;
     color: white;
-}
+} */
 .contact-background {
     background-color: rgb(250, 223, 237);
     width: 100%;
@@ -232,7 +232,7 @@ h1{
     clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
 }
 
-  .fa {
+  /* .fa {
     padding: 20px;
     font-size: 100px;
     width: 10px;
@@ -244,7 +244,7 @@ h1{
   .fa-facebook, .fa-twitter, .fa-linkedin{
     color: black;
     font-size: 30px;
-  }
+  } */
 
 
 .card {
@@ -263,17 +263,7 @@ h1{
     text-align: center;
     display: inline-block;
     margin-bottom: 70px;
-    /* background-color: lightgray;
-    color: black;
-    padding: 40px;
-    text-align: center;
-    padding-right: 10px;
-    font-size: 30px;
-    border-radius: 50%;
-    display: inline-block;
-    margin-bottom: 70px; */
 }
-
 
 .card:hover .circle {
     background-color: black;
@@ -289,9 +279,26 @@ h1{
     position: fixed;
     clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
 }
-.fa-gem {
-    color: black;
+.circle:hover {
+    background-color: black;
+    transition: 0.4s;
+    color: white;
 }
-.subcribe-div {
-    background-color: aqua;
+.btn3:hover {
+    background: whitesmoke;
+    columns: black;
+    border: 1px solid black;
+    transition: 0.4s;
+}
+.footer {
+    background-color: black ;
+}
+.social {
+    font-size: 30px;
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    margin-bottom: 70px;
+    text-decoration: none;
+    color: black;
 }
