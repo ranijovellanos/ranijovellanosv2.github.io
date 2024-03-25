@@ -292,6 +292,9 @@ h1{
 }
 .footer {
     background-color: black ;
+    position: absolute;
+    bottom: 0;
+    height: 100vh;
 }
 .social {
     font-size: 30px;
